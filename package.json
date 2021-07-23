@@ -1,0 +1,34 @@
+{
+  "name": "storybookUI",
+  "version": "1.0.0",
+  "description": "Working with Storybook UI to create a UI library specific to my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpwaters/storybookUI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpwaters/storybookUI/issues"
+  },
+  "homepage": "https://github.com/cpwaters/storybookUI#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.5",
+    "@storybook/addon-essentials": "^6.3.5",
+    "@storybook/addon-links": "^6.3.5",
+    "@storybook/react": "^6.3.5",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {
+    "create-react-app": "^4.0.3",
+    "storybook-react": "^3.2.16"
+  }
+}
