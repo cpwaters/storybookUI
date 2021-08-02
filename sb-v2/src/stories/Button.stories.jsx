@@ -1,12 +1,14 @@
 import React from 'react';
 
-import { Button } from './Button';
+import { Button } from '../components/Buttons/Button';
 
 export default {
-  title: 'Example/Button',
+  title: 'tfl/UI/Button',
   component: Button,
   argTypes: {
-    backgroundColor: { control: 'color' },
+    backgroundColor: { control: 'inline-radio' },
+    color: { control: 'inline-radio' },
+    border: { control: 'inline-radio' },
   },
 };
 
@@ -15,22 +17,11 @@ const Template = (args) => <Button {...args} />;
 export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
-  label: 'Button',
+  label: 'Primary',
 };
 
 export const Secondary = Template.bind({});
 Secondary.args = {
-  label: 'Button',
-};
-
-export const Large = Template.bind({});
-Large.args = {
-  size: 'large',
-  label: 'Button',
-};
-
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
+  primary: false,
+  label: 'Secondary',
 };

@@ -1,0 +1,92 @@
+.tfl-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 0.2em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.tfl-button-background-Blue {background-color: rgba(0,25,168,1);}
+.tfl-button-color-Blue {color: rgba(0,25,168,1);}
+.tfl-button-border-Blue {border: 1px solid rgba(0,25,168,1);}
+
+.tfl-button-background-DarkGrey {background-color: rgba(65,75,86,1)}
+.tfl-button-color-DarkGrey {color: rgba(65,75,86,1)}
+.tfl-button-border-DarkGrey {border: 1px solid rgba(65,75,86,1)}
+
+.tfl-button-background-Black {background-color: rgba(0,0,0,1);}
+.tfl-button-color-Black {color: rgba(0,0,0,1);}
+.tfl-button-border-Black {border: 1px solid rgba(0,0,0,1);}
+
+.tfl-button-background-Red {background-color: rgba(220,36,31,1);}
+.tfl-button-color-Red {color: rgba(220,36,31,1);}
+.tfl-button-border-Red {border: 1px solid rgba(220,36,31,1);}
+
+.tfl-button-background-Yellow {background-color: rgba(255,206,0,1);}
+.tfl-button-color-Yellow {color: rgba(255,206,0,1);}
+.tfl-button-border-Yellow {border: 1px solid rgba(255,206,0,1);}
+
+.tfl-button-background-White {background-color: rgba(255,255,255,1);}
+.tfl-button-color-White {color: rgba(255,255,255,1);}
+.tfl-button-border-White {border: 1px solid rgba(255,255,255,1);}
+
+.tfl-button-background-LightGrey {background-color: rgba(134,143,152,1);}
+.tfl-button-color-LightGrey {color: rgba(134,143,152,1);}
+.tfl-button-border-LightGrey {border: 1px solid rgba(134,143,152,1);}
+
+.tfl-button-background-Green {background-color: rgba(0,114,41,1);}
+.tfl-button-color-Green {color: rgba(0,114,41,1);}
+.tfl-button-border-Green {border: 1px solid rgba(0,114,41,1);}
+
+.tfl-button--DarkGrey {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(65,75,86,1);
+}
+.tfl-button--Black {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,1);
+}
+.tfl-button--Red {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(220,36,31,1);
+}
+.tfl-button--Yellow {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255,206,0,1);
+}
+.tfl-button--White {
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255,255,255,1);
+}
+.tfl-button--LightGrey {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(134,143,152,1);
+}
+.tfl-button--Green {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,114,41,1);
+}
+
+.tfl-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+.tfl-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.tfl-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.tfl-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+.tfl-button--xl {
+  font-size: 24px;
+  padding: 20px 40px;
+}
