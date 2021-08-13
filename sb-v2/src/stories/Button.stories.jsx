@@ -9,6 +9,7 @@ export default {
     backgroundColor: { control: 'inline-radio' },
     color: { control: 'inline-radio' },
     border: { control: 'inline-radio' },
+    standardButtons: { control: 'inline-radio' },
   },
 };
 
